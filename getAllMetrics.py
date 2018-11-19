@@ -140,7 +140,6 @@ def get_text_position_changes(s):
 
 		except:
 			pass
-
 	return textPositionChanges
 
 
@@ -240,7 +239,6 @@ def get_color_count(d):
 	#print "Param10"
 	d.save_screenshot('screenshot.png')
 	img 	 = Image.open('screenshot.png')
-
 	p=img.getdata()
 	p_list=[i[:-1] for i in p]
 	p_list.sort()
@@ -367,6 +365,7 @@ def getMetrics(url):
 		csvWriter.writerow(line)
 		csvFile.close()
 	except:
+        traceback.print_exc()
 		driver		=	setDriverOptions()
 		print("Error scraping the Url")
 		f2			= open(textFilename,"a+")
