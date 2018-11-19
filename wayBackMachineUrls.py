@@ -44,9 +44,9 @@ def main(filename,year):
 					print(nextUrl)
 					break
 				else:
-					print(page.status_code) 
+					print(page.status_code)
 
 if __name__=="__main__":
-	filename=str(sys.argv[-1]) 
+	filename=str(sys.argv[-1])
 	year=str(sys.argv[-2])
 	main(filename,year)
