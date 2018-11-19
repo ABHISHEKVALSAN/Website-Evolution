@@ -365,7 +365,7 @@ def getMetrics(url):
 		csvWriter.writerow(line)
 		csvFile.close()
 	except:
-        traceback.print_exc()
+		traceback.print_exc()
 		driver		=	setDriverOptions()
 		print("Error scraping the Url")
 		f2			= open(textFilename,"a+")
