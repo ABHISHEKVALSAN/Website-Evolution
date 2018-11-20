@@ -37,7 +37,7 @@ def setDriverOptions():
 	options 				= Options()
 	options.binary_location = "/home/abhiavk/git/mysite/mysiteEnv/bin/chromium-browser"
 	chrome_driver_binary	= "/home/abhiavk/git/mysite/mysiteEnv/bin/chromedriver"
-	#options.add_argument("--headless")
+	options.add_argument("--headless")
 	return	webdriver.Chrome(chrome_options=options)
 
 def main(filename,year):
@@ -60,5 +60,5 @@ def main(filename,year):
 
 if __name__=="__main__":
 	filename 	= sys.argv[-1]
-	year		= "2018"
+	year		= sys.argv[-2]
 	main(filename,year)
