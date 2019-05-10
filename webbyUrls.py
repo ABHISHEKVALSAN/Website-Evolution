@@ -19,8 +19,9 @@ import string
 import sys
 import unidecode
 import urllib
+import pandas as pd
 
-def findLink(url):
+def findLink(url,year):
 	try:
 		headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 		page=requests.get(url,headers=headers)
@@ -30,22 +31,24 @@ def findLink(url):
 		else:
 			print(page.status_code)
 			link="error"
+		with open("yearUrlWebby/WebbyUrl"+year+".csv","a+") as f:
+			f.write(link)
 		return link
 	except:
 		return url+"#"*10
 def setDriverOptions():
 	options 				= Options()
-	options.binary_location = "/home/abhiavk/git/mysite/mysiteEnv/bin/chromium-browser"
-	chrome_driver_binary	= "/home/abhiavk/git/mysite/mysiteEnv/bin/chromedriver"
-	options.add_argument("--headless")
+	options.binary_location = "webEvPy/bin/chromium-browser"
+	chrome_driver_binary	= "webEvPy/bin/chromedriver"
+	#options.add_argument("--headless")
 	return	webdriver.Chrome(chrome_options=options)
-
 def main(filename,year):
 	browser=setDriverOptions()
-	f=open(filename,"r")
-	for ext in f:
-		url="https://www.webbyawards.com/winners/"+year+str(ext).strip()
-		browser.implicitly_wait(10)
+	cat=pd.read_csv(filename)
+	with open("yearUrlWebby/WebbyUrl"+year+".csv","a+") as f:
+		f.write("urls")
+	for category in cat['category']:
+		url="https://www.webbyawards.com/winners/"+str(year)+str(category).strip()
 		browser.get(url)
 		browser.implicitly_wait(10)
 		header = browser.find_elements_by_tag_name('h2')
@@ -56,7 +59,7 @@ def main(filename,year):
 		for i in links:
 			l=i.find("a")
 			nextUrl="https://www.webbyawards.com"+str(l['href'])
-			print(findLink(nextUrl))
+			print(category,findLink(nextUrl,str(year)))
 
 if __name__=="__main__":
 	filename 	= sys.argv[-1]

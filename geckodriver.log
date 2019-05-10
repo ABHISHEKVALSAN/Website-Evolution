@@ -1,0 +1,1008 @@
+1557480545972	geckodriver	INFO	geckodriver 0.21.0
+1557480545990	geckodriver	INFO	Listening on 127.0.0.1:38163
+1557480547015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KJM2I1Et98ps"
+1557480547329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557480547330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557480547330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557480547432	Marionette	TRACE	Received observer notification profile-after-change
+1557480547775	Marionette	TRACE	Received observer notification command-line-startup
+1557480547775	Marionette	TRACE	Received observer notification nsPref:changed
+1557480547775	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557480548669	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557480550094	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557480550094	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557480550192	Marionette	TRACE	All scripts recorded.
+1557480550192	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557480550192	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557480550192	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557480550192	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557480550193	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557480550194	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557480550194	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557480550194	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557480550195	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557480550195	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557480550195	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557480550195	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557480550196	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557480550197	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557480550197	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557480550197	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557480550197	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557480550197	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557480550198	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557480550198	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557480550199	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557480550199	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557480550199	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557480550199	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557480550199	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557480550199	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557480550199	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557480550480	Marionette	INFO	Listening on port 46399
+1557480550480	Marionette	DEBUG	Remote service is active
+1557480550532	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:38816
+1557480550533	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557480550534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557480550566	Marionette	TRACE	[4294967297] Frame script loaded
+1557480550567	Marionette	TRACE	[4294967297] Frame script registered
+1557480550568	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"ac16f757-4f01-4ef3-851e-e5514a80aca5","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557480550574	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/urls\n"}]
+1557480550607	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1557480552371	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480555759	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/urls
+1557480557010	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/urls
+1557480557012	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1557480562022	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480562029	Marionette	DEBUG	0 <- [1,3,null,[]]
+1557480562033	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480562193	Marionette	DEBUG	0 <- [1,4,null,[{"element-6066-11e4-a52e-4f735466cecf":"39646f00-ec03-44c4-8157-a08c3d9b3ffb"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"b69d9b01-8aa0-47a2-855b-c376efdcce5f"},{"element-6066-11e4-a52e-4f735466cecf":"cf1039b0-5c5e-4e6d-9fa2-2d38bd848a8d"}]]
+1557480562198	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1557480562202	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/include ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480562311	Marionette	DEBUG	0 -> [0,6,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org\n"}]
+1557480562315	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/urls
+1557480563074	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/urls
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480563538	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+1557480563552	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+1557480563553	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1557480568562	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480568570	Marionette	DEBUG	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"92ed86b0-bf12-49ca-8696-30fa583557fa"}]]
+1557480568574	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480570168	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"e971e819-929f-4a1c-94dd-ab3f4ff0910b"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"f0ff5b4b-3386-49f0-8212-65869a39427b"},{"element-6066-11e4-a52e-4f735466cecf":"6a3408a7-4415-4c21-bb97-a81ba838cee6"}]]
+1557480570232	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1557480570239	Marionette	DEBUG	0 <- [1,9,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/include ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480570357	Marionette	DEBUG	0 -> [0,10,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.actforchange.com\n"}]
+1557480570359	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+1557480570727	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480571194	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+1557480571211	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+1557480571212	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1557480576221	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480576233	Marionette	DEBUG	0 <- [1,11,null,[{"element-6066-11e4-a52e-4f735466cecf":"332bf3a4-3dec-47e4-ad17-dbceb699c5bf"}]]
+1557480576235	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480579524	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"4160c425-7034-4a1d-aad8-557b5c54d1aa"},{"element-6066-11e4-a52e-4f735466c ... ecf":"7fe0736f-fa7f-44e7-bcdd-7b8a3bc3ef93"},{"element-6066-11e4-a52e-4f735466cecf":"dc91147b-3c3e-4675-8fc4-d634cf33fa64"}]]
+1557480579581	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetPageSource",{}]
+1557480579592	Marionette	DEBUG	0 <- [1,13,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/includ ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480579704	Marionette	DEBUG	0 -> [0,14,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.indymedia.org\n"}]
+1557480579707	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+1557480580104	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480580603	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480580620	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480580621	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1557480585628	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480585649	Marionette	DEBUG	0 <- [1,15,null,[{"element-6066-11e4-a52e-4f735466cecf":"e5616c5d-0c85-4573-8b9c-4a0e3a50780f"}]]
+1557480585651	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480591113	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"be3c8194-adda-4f1a-a5ba-93e627e6ef8a"},{"element-6066-11e4-a52e-4f735466c ... ecf":"6c4f5f36-6954-48c0-b2f6-92948c9233a3"},{"element-6066-11e4-a52e-4f735466cecf":"2d2f96cd-e16e-4ea1-8db7-e427b51ab2d6"}]]
+1557480591176	Marionette	DEBUG	0 -> [0,17,"WebDriver:GetPageSource",{}]
+1557480591180	Marionette	DEBUG	0 <- [1,17,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/includ ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480591303	Marionette	DEBUG	0 -> [0,18,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.peta-online.org\n"}]
+1557480591305	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480591689	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480591979	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.peta-online.org
+1557480591992	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.peta-online.org
+1557480591993	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1557480623980	geckodriver	INFO	geckodriver 0.21.0
+1557480623983	geckodriver	INFO	Listening on 127.0.0.1:52793
+1557480624991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ULbY8vemukcZ"
+1557480625294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557480625294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557480625294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557480625402	Marionette	TRACE	Received observer notification profile-after-change
+1557480625765	Marionette	TRACE	Received observer notification command-line-startup
+1557480625765	Marionette	TRACE	Received observer notification nsPref:changed
+1557480625765	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557480626394	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557480627222	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557480627222	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557480627347	Marionette	TRACE	All scripts recorded.
+1557480627348	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557480627348	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557480627348	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557480627348	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557480627348	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557480627348	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557480627349	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557480627349	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557480627349	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557480627349	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557480627349	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557480627349	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557480627349	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557480627349	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557480627349	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557480627349	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557480627349	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557480627350	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557480627350	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557480627350	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557480627350	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557480627350	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557480627350	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557480627350	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557480627350	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557480627350	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557480627350	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557480627379	Marionette	INFO	Listening on port 36333
+1557480627379	Marionette	DEBUG	Remote service is active
+1557480627397	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:46240
+1557480627404	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557480627404	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557480627441	Marionette	TRACE	[4294967297] Frame script loaded
+1557480627442	Marionette	TRACE	[4294967297] Frame script registered
+1557480627444	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"664a4fac-66c1-4c5f-a459-b28239027b36","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557480627449	Marionette	DEBUG	0 -> [0,2,"WebDriver:CloseWindow",{}]
+1557480627450	Marionette	DEBUG	0 <- [1,2,null,[]]
+1557480627456	Marionette	DEBUG	0 -> [0,3,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1557480627456	Marionette	INFO	Stopped listening on port 36333
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1557480627482	Marionette	TRACE	Received observer notification quit-application
+1557480627486	Marionette	DEBUG	0 <- [1,3,null,{"cause":"shutdown"}]
+1557480627511	Marionette	DEBUG	Closed connection 0
+[Parent 22863, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1557480629349	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1557480629349	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1557480629350	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1557480629350	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1557480629350	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1557480629350	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1557480629350	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1557480629350	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1557480629351	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1557480629351	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1557480629351	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1557480629351	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1557480629351	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1557480629351	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1557480629352	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1557480629352	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1557480629352	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1557480629352	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1557480629352	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1557480629352	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1557480629352	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1557480629352	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1557480629352	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1557480629353	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1557480629353	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1557480629353	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1557480629353	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1557480629353	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1557480629353	Marionette	DEBUG	Remote service is inactive
+1557480648253	geckodriver	INFO	geckodriver 0.21.0
+1557480648256	geckodriver	INFO	Listening on 127.0.0.1:45911
+1557480649263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4ox1XzISVTPy"
+1557480649555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557480649555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557480649555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557480649661	Marionette	TRACE	Received observer notification profile-after-change
+1557480650025	Marionette	TRACE	Received observer notification command-line-startup
+1557480650025	Marionette	TRACE	Received observer notification nsPref:changed
+1557480650025	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557480650893	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557480652319	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557480652319	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557480652442	Marionette	TRACE	All scripts recorded.
+1557480652443	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557480652443	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557480652443	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557480652444	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557480652444	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557480652445	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557480652446	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557480652446	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557480652447	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557480652447	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557480652447	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557480652447	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557480652449	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557480652449	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557480652449	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557480652449	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557480652450	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557480652450	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557480652451	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557480652451	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557480652451	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557480652451	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557480652452	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557480652452	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557480652452	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557480652452	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557480652452	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557480652484	Marionette	INFO	Listening on port 41043
+1557480652484	Marionette	DEBUG	Remote service is active
+1557480652612	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:46668
+1557480652613	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557480652614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557480652647	Marionette	TRACE	[4294967297] Frame script loaded
+1557480652647	Marionette	TRACE	[4294967297] Frame script registered
+1557480652649	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"8c3123d1-226d-4bb3-a5f1-492b30156da4","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557480652661	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org"}]
+1557480652691	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1557480653799	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480655925	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+1557480657117	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+1557480657118	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1557480662127	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480662131	Marionette	DEBUG	0 <- [1,3,null,[{"element-6066-11e4-a52e-4f735466cecf":"bfaefa0d-8794-4490-8202-5ebfba4820d6"}]]
+1557480662133	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480663172	Marionette	DEBUG	0 <- [1,4,null,[{"element-6066-11e4-a52e-4f735466cecf":"5dfc9215-cee8-44f2-9972-0f005ea80bb3"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"e37abe4a-cae9-42f2-9632-d9e612ed92fe"},{"element-6066-11e4-a52e-4f735466cecf":"6fcdfda7-de66-477b-b227-afe4f6f08ad9"}]]
+1557480663227	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1557480663232	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/include ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480663376	Marionette	DEBUG	0 -> [0,6,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.actforchange.com"}]
+1557480663380	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+1557480663683	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.volunteermatch.org
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480664161	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+1557480664176	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+1557480664177	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1557480669186	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480669199	Marionette	DEBUG	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"a0069041-3a3c-4562-a40e-1b9fcf932677"}]]
+1557480669202	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480672007	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"9b5dc9d1-4c44-487c-a861-c2a653ff6802"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"6933f466-0a50-4236-bfb3-bc211e0122b4"},{"element-6066-11e4-a52e-4f735466cecf":"57352bf8-0b33-4438-b8ff-1188073eaa1a"}]]
+1557480672060	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1557480672065	Marionette	DEBUG	0 <- [1,9,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/include ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480672175	Marionette	DEBUG	0 -> [0,10,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.indymedia.org"}]
+1557480672181	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+1557480672480	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.actforchange.com
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480672950	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480672967	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480672968	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1557480677978	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480677997	Marionette	DEBUG	0 <- [1,11,null,[{"element-6066-11e4-a52e-4f735466cecf":"5ce3fa11-6ae7-486e-85e7-5aba05a19ad8"}]]
+1557480677999	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480682991	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"b9b467ef-4c17-4eca-9c05-f340a2ef6cd0"},{"element-6066-11e4-a52e-4f735466c ... ecf":"547712cc-935b-4416-a03c-9c224ba1c63c"},{"element-6066-11e4-a52e-4f735466cecf":"4a35f87d-6b39-41da-a727-c712d143ecb9"}]]
+1557480683042	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetPageSource",{}]
+1557480683047	Marionette	DEBUG	0 <- [1,13,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/includ ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480683167	Marionette	DEBUG	0 -> [0,14,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.peta-online.org"}]
+1557480683169	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+1557480683471	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.indymedia.org
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480683975	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.peta-online.org
+1557480683994	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.peta-online.org
+1557480683995	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1557480688999	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480689015	Marionette	DEBUG	0 <- [1,15,null,[{"element-6066-11e4-a52e-4f735466cecf":"a3331dd1-9804-40b1-acd3-9e090a2c68b4"}]]
+1557480689016	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480696481	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"3f940ea9-c9c5-4fb2-8dfc-e161c016f4f7"},{"element-6066-11e4-a52e-4f735466c ... ecf":"9b617aa7-6d81-42c7-aaa2-6bbd2e350b09"},{"element-6066-11e4-a52e-4f735466cecf":"ac7146e9-80fa-43c9-bfb0-6c5f5dd726c7"}]]
+1557480696539	Marionette	DEBUG	0 -> [0,17,"WebDriver:GetPageSource",{}]
+1557480696547	Marionette	DEBUG	0 <- [1,17,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/includ ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480696692	Marionette	DEBUG	0 -> [0,18,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.protest.net"}]
+1557480696694	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.peta-online.org
+1557480697059	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.peta-online.org
+1557480697338	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.protest.net
+1557480697348	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.protest.net
+1557480697349	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1557480702355	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480702370	Marionette	DEBUG	0 <- [1,19,null,[{"element-6066-11e4-a52e-4f735466cecf":"f56bad44-1521-484f-84b4-f12f95b93a49"}]]
+1557480702372	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480712731	Marionette	DEBUG	0 <- [1,20,null,[{"element-6066-11e4-a52e-4f735466cecf":"f9d95f8c-54b1-4034-9879-c16b1942733d"},{"element-6066-11e4-a52e-4f735466c ... ecf":"9a0fa97d-7cd1-4600-9195-b883acbcd017"},{"element-6066-11e4-a52e-4f735466cecf":"dfdf72b7-f72f-4402-bfc8-0db5d884f1b8"}]]
+1557480712780	Marionette	DEBUG	0 -> [0,21,"WebDriver:GetPageSource",{}]
+1557480712784	Marionette	DEBUG	0 <- [1,21,null,{"value":"<html lang=\"en\"><head>\n    <title>Wayback Machine</title>\n        <script src=\"//archive.org/includ ... <a href=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</body></html>"}]
+1557480712849	Marionette	DEBUG	0 -> [0,22,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000*/http://www.yhchang.com"}]
+1557480712853	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010101000000*/http://www.protest.net
+1557480713230	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010101000000*/http://www.protest.net
+1557480713539	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010101000000*/http://www.yhchang.com
+1557480713550	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010101000000*/http://www.yhchang.com
+1557480713551	Marionette	DEBUG	0 <- [1,22,null,{"value":null}]
+1557480718555	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480718597	Marionette	DEBUG	0 <- [1,23,null,[{"element-6066-11e4-a52e-4f735466cecf":"7052df1f-9095-4b2c-90df-9a110d4d3fe3"}]]
+1557480718599	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480727508	Marionette	TRACE	Received DOM event unload for [object XULDocument]
+1557480727512	Marionette	TRACE	Received observer notification message-manager-disconnect
+1557480727520	Marionette	DEBUG	0 <- [1,24,null,{"value":null}]
+1557480727546	Marionette	DEBUG	0 -> [0,25,"WebDriver:CloseWindow",{}]
+1557480727547	Marionette	DEBUG	0 <- [1,25,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1557480727560	Marionette	DEBUG	Closed connection 0
+[Parent 23272, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557480728984	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1557480728984	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1557480728984	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1557480728984	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1557480728984	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1557480728985	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1557480728986	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1557480728986	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1557480728986	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1557480728986	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1557480728986	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1557480728986	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1557480728986	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1557480728986	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1557480728986	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1557480728986	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1557480728986	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1557480728986	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1557480728986	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1557480728987	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1557480728987	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1557480728987	Marionette	INFO	Stopped listening on port 41043
+1557480728987	Marionette	DEBUG	Remote service is inactive
+1557480733865	geckodriver	INFO	geckodriver 0.21.0
+1557480733869	geckodriver	INFO	Listening on 127.0.0.1:49053
+1557480734875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3KeGTnyrJKSJ"
+1557480735169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557480735169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557480735169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557480735274	Marionette	TRACE	Received observer notification profile-after-change
+1557480735715	Marionette	TRACE	Received observer notification command-line-startup
+1557480735715	Marionette	TRACE	Received observer notification nsPref:changed
+1557480735715	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557480736403	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557480737307	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557480737307	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557480737418	Marionette	TRACE	All scripts recorded.
+1557480737419	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557480737419	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557480737419	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557480737419	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557480737419	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557480737419	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557480737420	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557480737420	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557480737420	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557480737420	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557480737420	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557480737420	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557480737420	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557480737420	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557480737421	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557480737421	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557480737421	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557480737421	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557480737421	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557480737421	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557480737421	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557480737421	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557480737421	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557480737421	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557480737421	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557480737421	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557480737422	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557480737457	Marionette	INFO	Listening on port 46419
+1557480737457	Marionette	DEBUG	Remote service is active
+1557480737482	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58686
+1557480737483	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557480737484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557480737518	Marionette	TRACE	[4294967297] Frame script loaded
+1557480737519	Marionette	TRACE	[4294967297] Frame script registered
+1557480737522	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d8585efc-2fdf-47ef-9d93-d1698ff8dd35","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557480737535	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.volunteermatch.org"}]
+1557480737565	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1557480741816	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1557480743517	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480744681	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480744682	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1557480749693	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480749700	Marionette	DEBUG	0 <- [1,3,null,[]]
+1557480749702	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480749706	Marionette	DEBUG	0 <- [1,4,null,[{"element-6066-11e4-a52e-4f735466cecf":"971cb3ef-3763-4ef3-a440-c15ad5af2fd3"},{"element-6066-11e4-a52e-4f735466cecf":"98231585-e36d-43c3-b8cd-a69a378bd62d"}]]
+1557480749707	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1557480749708	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scri ... /blank.gif\" width=\"20\" height=\"350\" border=\"0\">\n  </td>\n</tr>\n\n</tbody></table>\n\n\n\n\n\n\n\n\n</body></html>"}]
+1557480749762	Marionette	DEBUG	0 -> [0,6,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.actforchange.com"}]
+1557480749766	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480750798	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480750800	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480752425	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480752717	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480752718	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1557480757723	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480757725	Marionette	DEBUG	0 <- [1,7,null,[]]
+1557480757727	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480757747	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"349b3621-ee50-41a4-8a9d-ab336708ecd2"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"a255ac28-ffe7-474e-81e0-18a3ac4efcd9"},{"element-6066-11e4-a52e-4f735466cecf":"a012d559-d836-4031-b9c5-dc8f8dd485e4"}]]
+1557480757749	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1557480757751	Marionette	DEBUG	0 <- [1,9,null,{"value":"<html lang=\"en\"><head>\n    <title></title>\n        <script src=\"//archive.org/includes/jquery-1.10.2 ... f=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</div></body></html>"}]
+1557480757860	Marionette	DEBUG	0 -> [0,10,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.indymedia.org"}]
+1557480757863	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480759524	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480759525	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480759603	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480762483	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480762484	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1557480767493	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480767499	Marionette	DEBUG	0 <- [1,11,null,[]]
+1557480767502	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480767513	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"52bfaf74-78c6-4528-8036-3b5f6c8aa88c"},{"element-6066-11e4-a52e-4f735466c ... ecf":"42d025fb-7aba-424c-bfdb-81cbbb12bed7"},{"element-6066-11e4-a52e-4f735466cecf":"174cb248-056f-4842-b208-4aa4c175d186"}]]
+1557480767516	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetPageSource",{}]
+1557480767521	Marionette	DEBUG	0 <- [1,13,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... www.active.org.au/sydney/about/#howorg\">active\nversion 1.31</a>\n</font>\n</center>\n----->\n</font>\n\n\n</body></html>"}]
+1557480767648	Marionette	DEBUG	0 -> [0,14,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.peta-online.org"}]
+1557480767650	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480769499	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480769500	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480775443	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480780333	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480780335	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1557480785344	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480785351	Marionette	DEBUG	0 <- [1,15,null,[]]
+1557480785355	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480785362	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"5018bd44-b221-48a9-bd0f-67283569b430"},{"element-6066-11e4-a52e-4f735466c ... ecf":"073744bd-4f90-4f91-9b1b-33b29091d217"},{"element-6066-11e4-a52e-4f735466cecf":"171cbd2f-d20c-47e2-a793-6839470f0fbb"}]]
+1557480785363	Marionette	DEBUG	0 -> [0,17,"WebDriver:GetPageSource",{}]
+1557480785366	Marionette	DEBUG	0 <- [1,17,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... \t\t\t</noscript>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\t\n\n\n</body></html>"}]
+1557480785483	Marionette	DEBUG	0 -> [0,18,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.protest.net"}]
+1557480785486	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480787734	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480787735	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480787792	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480791419	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480791420	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1557480796424	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480796426	Marionette	DEBUG	0 <- [1,19,null,[]]
+1557480796429	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480796433	Marionette	DEBUG	0 <- [1,20,null,[{"element-6066-11e4-a52e-4f735466cecf":"0533045e-b0da-4387-b449-789e7025c16c"},{"element-6066-11e4-a52e-4f735466cecf":"9718fb7b-d342-4e7e-ba55-aba9e8de3748"}]]
+1557480796435	Marionette	DEBUG	0 -> [0,21,"WebDriver:GetPageSource",{}]
+1557480796438	Marionette	DEBUG	0 <- [1,21,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... edback</font></a>&nbsp;&nbsp;\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\n<br><br>\n\n</form></body></html>"}]
+1557480796560	Marionette	DEBUG	0 -> [0,22,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.yhchang.com"}]
+1557480796563	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480797833	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480797834	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480797873	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480797877	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480797878	Marionette	DEBUG	0 <- [1,22,null,{"value":null}]
+1557480802884	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480802887	Marionette	DEBUG	0 <- [1,23,null,[]]
+1557480802890	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480802897	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"712c6d68-1bd0-4b9c-9818-fdfd13a1c527"},{"element-6066-11e4-a52e-4f735466cecf":"e9176344-0046-4510-b074-a3e146d06f42"}]]
+1557480802900	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetPageSource",{}]
+1557480802901	Marionette	DEBUG	0 <- [1,25,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... <a href=\"https://web.archive.org/web/20001206042300/mailto:tfa@chollian.net\">E-MAIL</a></font></p>\n\n\n\n</body></html>"}]
+1557480802909	Marionette	DEBUG	0 -> [0,26,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.c5corp.com/1to1"}]
+1557480802911	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480804610	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480804611	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480804642	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480804650	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480804651	Marionette	DEBUG	0 <- [1,26,null,{"value":null}]
+1557480809661	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480809667	Marionette	DEBUG	0 <- [1,27,null,[]]
+1557480809669	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480809672	Marionette	DEBUG	0 <- [1,28,null,[{"element-6066-11e4-a52e-4f735466cecf":"f9cbe908-8e5f-4781-8c6a-a48d0f874980"},{"element-6066-11e4-a52e-4f735466cecf":"68bf3012-9972-4295-88c9-6fe2b04c3bf8"}]]
+1557480809673	Marionette	DEBUG	0 -> [0,29,"WebDriver:GetPageSource",{}]
+1557480809675	Marionette	DEBUG	0 <- [1,29,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... e.'; return true\">interface : <i>excursion</i></a></td>\n</tr>\n\n    </tbody></table>\n</center>\n\n\n\n\n</body></html>"}]
+1557480809678	Marionette	DEBUG	0 -> [0,30,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.turbulence.org/Works/apartment"}]
+1557480809681	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480811557	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480811557	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480812579	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480813590	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480813592	Marionette	DEBUG	0 <- [1,30,null,{"value":null}]
+1557480818597	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480818604	Marionette	DEBUG	0 <- [1,31,null,[]]
+1557480818608	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480818612	Marionette	DEBUG	0 <- [1,32,null,[{"element-6066-11e4-a52e-4f735466cecf":"00c78813-ef7c-44e4-94ac-0e22fdc18390"},{"element-6066-11e4-a52e-4f735466cecf":"f2b7e1f5-816d-4e15-b828-a1e3b23bab69"}]]
+1557480818613	Marionette	DEBUG	0 -> [0,33,"WebDriver:GetPageSource",{}]
+1557480818614	Marionette	DEBUG	0 <- [1,33,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ...  site, with funds from the Jerome Foundation</span></font></p>\n    </td>\n  </tr>\n</tbody></table>\n\n\n\n</body></html>"}]
+1557480818620	Marionette	DEBUG	0 -> [0,34,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.glasbead.com"}]
+1557480818624	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480820272	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480820273	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480820362	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480820391	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480820392	Marionette	DEBUG	0 <- [1,34,null,{"value":null}]
+1557480833320	geckodriver	INFO	geckodriver 0.21.0
+1557480833323	geckodriver	INFO	Listening on 127.0.0.1:43785
+1557480834326	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SLDTAK3s4Jtc"
+1557480834615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557480834616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557480834616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557480834726	Marionette	TRACE	Received observer notification profile-after-change
+1557480835179	Marionette	TRACE	Received observer notification command-line-startup
+1557480835179	Marionette	TRACE	Received observer notification nsPref:changed
+1557480835179	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557480835943	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557480836932	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557480836932	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557480837051	Marionette	TRACE	All scripts recorded.
+1557480837051	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557480837051	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557480837051	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557480837052	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557480837053	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557480837053	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557480837053	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557480837053	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557480837053	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557480837053	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557480837053	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557480837053	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557480837053	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557480837053	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557480837053	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557480837053	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557480837054	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557480837054	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557480837054	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557480837054	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557480837054	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557480837084	Marionette	INFO	Listening on port 37767
+1557480837084	Marionette	DEBUG	Remote service is active
+1557480837135	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:35130
+1557480837137	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557480837137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557480837170	Marionette	TRACE	[4294967297] Frame script loaded
+1557480837236	Marionette	TRACE	[4294967297] Frame script registered
+1557480837238	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"98c5db1e-0ac6-475f-8704-a6170c5c52ff","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557480837255	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.volunteermatch.org"}]
+1557480837280	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1557480839981	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1557480841195	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480842460	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480842462	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1557480847471	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480847476	Marionette	DEBUG	0 <- [1,3,null,[]]
+1557480847478	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480847483	Marionette	DEBUG	0 <- [1,4,null,[{"element-6066-11e4-a52e-4f735466cecf":"9ed76f6f-5ddf-4068-bba6-b9776ae93272"},{"element-6066-11e4-a52e-4f735466cecf":"46253811-e4e7-4afa-82ea-75e1ea245518"}]]
+1557480847485	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1557480847487	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scri ... /blank.gif\" width=\"20\" height=\"350\" border=\"0\">\n  </td>\n</tr>\n\n</tbody></table>\n\n\n\n\n\n\n\n\n</body></html>"}]
+1557480847543	Marionette	DEBUG	0 -> [0,6,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.actforchange.com"}]
+1557480847548	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480848157	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480848159	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480849713	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480850013	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480850014	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1557480855024	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480855027	Marionette	DEBUG	0 <- [1,7,null,[]]
+1557480855030	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480855051	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"ba2a6d5a-59be-48ff-bc63-a16a9c3655d4"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"adf52ca4-a6db-4bfe-96eb-f739b7eebd46"},{"element-6066-11e4-a52e-4f735466cecf":"dd18cfed-1e80-4814-8d03-49fd15a96d4d"}]]
+1557480855053	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1557480855055	Marionette	DEBUG	0 <- [1,9,null,{"value":"<html lang=\"en\"><head>\n    <title></title>\n        <script src=\"//archive.org/includes/jquery-1.10.2 ... f=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</div></body></html>"}]
+1557480855169	Marionette	DEBUG	0 -> [0,10,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.indymedia.org"}]
+1557480855172	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480856051	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480856053	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480856120	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480858120	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480858121	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1557480863129	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480863134	Marionette	DEBUG	0 <- [1,11,null,[]]
+1557480863137	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480863141	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"c909a14b-2855-41cb-b244-515221f82243"},{"element-6066-11e4-a52e-4f735466c ... ecf":"c5bfd406-fa2f-4d5b-9783-13b93ef30b54"},{"element-6066-11e4-a52e-4f735466cecf":"041ffc15-3878-4188-91c7-33ece8cf2ad9"}]]
+1557480863144	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetPageSource",{}]
+1557480863150	Marionette	DEBUG	0 <- [1,13,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... www.active.org.au/sydney/about/#howorg\">active\nversion 1.31</a>\n</font>\n</center>\n----->\n</font>\n\n\n</body></html>"}]
+1557480863280	Marionette	DEBUG	0 -> [0,14,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.peta-online.org"}]
+1557480863282	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480864195	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480864195	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557480867813	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480869072	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480869072	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1557480874080	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480874094	Marionette	DEBUG	0 <- [1,15,null,[]]
+1557480874096	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480874103	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"2a2d4eac-b34a-4530-ae6a-cd56fc1cc6e3"},{"element-6066-11e4-a52e-4f735466c ... ecf":"dd61d3c4-86d9-4a6d-8dca-1d25e48bea09"},{"element-6066-11e4-a52e-4f735466cecf":"eca00c84-c37e-4452-a969-45ce24074b05"}]]
+1557480874104	Marionette	DEBUG	0 -> [0,17,"WebDriver:GetPageSource",{}]
+1557480874106	Marionette	DEBUG	0 <- [1,17,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... \t\t\t</noscript>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\t\n\n\n</body></html>"}]
+1557480874225	Marionette	DEBUG	0 -> [0,18,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.protest.net"}]
+1557480874227	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480874813	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480874814	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557480874869	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480876001	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480876003	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1557480881013	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480881016	Marionette	DEBUG	0 <- [1,19,null,[]]
+1557480881020	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480881027	Marionette	DEBUG	0 <- [1,20,null,[{"element-6066-11e4-a52e-4f735466cecf":"09d7c4fe-a83d-4f3b-aaaf-624603f6be1f"},{"element-6066-11e4-a52e-4f735466cecf":"01000785-dabd-4c4c-9e9b-382d1f5be3c7"}]]
+1557480881029	Marionette	DEBUG	0 -> [0,21,"WebDriver:GetPageSource",{}]
+1557480881031	Marionette	DEBUG	0 <- [1,21,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... edback</font></a>&nbsp;&nbsp;\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\n<br><br>\n\n</form></body></html>"}]
+1557480881151	Marionette	DEBUG	0 -> [0,22,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.yhchang.com"}]
+1557480881154	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480881743	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480881744	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557480881776	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480881786	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480881786	Marionette	DEBUG	0 <- [1,22,null,{"value":null}]
+1557480886794	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480886798	Marionette	DEBUG	0 <- [1,23,null,[]]
+1557480886802	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480886810	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"97244895-d70a-4b67-ba23-2fd547091367"},{"element-6066-11e4-a52e-4f735466cecf":"b9c11e12-0ef3-4065-830b-4a55662d3513"}]]
+1557480886812	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetPageSource",{}]
+1557480886813	Marionette	DEBUG	0 <- [1,25,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... <a href=\"https://web.archive.org/web/20001206042300/mailto:tfa@chollian.net\">E-MAIL</a></font></p>\n\n\n\n</body></html>"}]
+1557480886819	Marionette	DEBUG	0 -> [0,26,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.c5corp.com/1to1"}]
+1557480886822	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480887730	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480887731	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557480887768	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480887773	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480887774	Marionette	DEBUG	0 <- [1,26,null,{"value":null}]
+1557480892779	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480892781	Marionette	DEBUG	0 <- [1,27,null,[]]
+1557480892783	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480892788	Marionette	DEBUG	0 <- [1,28,null,[{"element-6066-11e4-a52e-4f735466cecf":"eda1194d-340a-4186-baf8-90582cd8772d"},{"element-6066-11e4-a52e-4f735466cecf":"7e453609-1555-42dc-a04c-3af0161ae38f"}]]
+1557480892790	Marionette	DEBUG	0 -> [0,29,"WebDriver:GetPageSource",{}]
+1557480892792	Marionette	DEBUG	0 <- [1,29,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... e.'; return true\">interface : <i>excursion</i></a></td>\n</tr>\n\n    </tbody></table>\n</center>\n\n\n\n\n</body></html>"}]
+1557480892798	Marionette	DEBUG	0 -> [0,30,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.turbulence.org/Works/apartment"}]
+1557480892802	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480893733	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480893734	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557480894349	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480894354	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480894355	Marionette	DEBUG	0 <- [1,30,null,{"value":null}]
+1557480899365	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480899370	Marionette	DEBUG	0 <- [1,31,null,[]]
+1557480899373	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480899378	Marionette	DEBUG	0 <- [1,32,null,[{"element-6066-11e4-a52e-4f735466cecf":"6fbcd3ef-494e-457f-8b59-ec732cab1c03"},{"element-6066-11e4-a52e-4f735466cecf":"780e1ed9-8e4c-4a61-aa1b-478d2a79c350"}]]
+1557480899379	Marionette	DEBUG	0 -> [0,33,"WebDriver:GetPageSource",{}]
+1557480899381	Marionette	DEBUG	0 <- [1,33,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ...  site, with funds from the Jerome Foundation</span></font></p>\n    </td>\n  </tr>\n</tbody></table>\n\n\n\n</body></html>"}]
+1557480899386	Marionette	DEBUG	0 -> [0,34,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.glasbead.com"}]
+1557480899389	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480899982	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557480899983	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480900064	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480900095	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480900096	Marionette	DEBUG	0 <- [1,34,null,{"value":null}]
+1557480905103	Marionette	DEBUG	0 -> [0,35,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480905105	Marionette	DEBUG	0 <- [1,35,null,[]]
+1557480905107	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480905130	Marionette	DEBUG	0 <- [1,36,null,[{"element-6066-11e4-a52e-4f735466cecf":"64569043-e75f-4018-a2b6-20417399be8e"},{"element-6066-11e4-a52e-4f735466c ... ecf":"dc1db61b-7e03-4dda-ba1f-80106229ed44"},{"element-6066-11e4-a52e-4f735466cecf":"4d08d484-3065-45ec-ae68-bf5c44aef30e"}]]
+1557480905132	Marionette	DEBUG	0 -> [0,37,"WebDriver:GetPageSource",{}]
+1557480905134	Marionette	DEBUG	0 <- [1,37,null,{"value":"<html lang=\"en\"><head>\n    <title></title>\n        <script src=\"//archive.org/includes/jquery-1.10. ... f=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</div></body></html>"}]
+1557480905252	Marionette	DEBUG	0 -> [0,38,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.potatoland.org"}]
+1557480905255	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480906543	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480906544	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010301210751/http://www.glasbead.com/
+1557480907181	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010118210300/http://www.potatoland.org/
+JavaScript error: https://web.archive.org/web/20010118210300if_/http://www.potatoland.org:80/, line 149: TypeError: document.layers is undefined
+1557480907615	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010118210300/http://www.potatoland.org/
+1557480907615	Marionette	DEBUG	0 <- [1,38,null,{"value":null}]
+1557480912626	Marionette	DEBUG	0 -> [0,39,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480912634	Marionette	DEBUG	0 <- [1,39,null,[]]
+1557480912640	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480912651	Marionette	DEBUG	0 <- [1,40,null,[{"element-6066-11e4-a52e-4f735466cecf":"874fd8ca-e3af-4604-bd50-6a198d128cfc"},{"element-6066-11e4-a52e-4f735466cecf":"d831a127-6379-4416-8b06-8c4ef72ec83c"}]]
+1557480912654	Marionette	DEBUG	0 -> [0,41,"WebDriver:GetPageSource",{}]
+1557480912656	Marionette	DEBUG	0 <- [1,41,null,{"value":"<html><head>\n<title>Wayback Machine</title>\n<script src=\"//archive.org/includes/analytics.js?v=cf34f8 ... yback(); \n});\n$('#wm-tb-close').click(function(){\n  margin_top = 0;\n  fitPlayback();\n});\n</script>\n\n</body></html>"}]
+1557480912660	Marionette	DEBUG	0 -> [0,42,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.heavy.com"}]
+1557480912666	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010118210300/http://www.potatoland.org/
+1557480914308	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010118210300/http://www.potatoland.org/
+1557480915309	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010118230700/http://www.heavy.com/
+1557480915315	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010118230700/http://www.heavy.com/
+1557480915316	Marionette	DEBUG	0 <- [1,42,null,{"value":null}]
+1557480920323	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480920332	Marionette	DEBUG	0 <- [1,43,null,[]]
+1557480920334	Marionette	DEBUG	0 -> [0,44,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480920341	Marionette	DEBUG	0 <- [1,44,null,[{"element-6066-11e4-a52e-4f735466cecf":"5a05d30c-3d89-47bd-8d52-43a70c71e752"},{"element-6066-11e4-a52e-4f735466cecf":"617ebb17-7d8f-4db1-8a64-e239bba31160"}]]
+1557480920343	Marionette	DEBUG	0 -> [0,45,"WebDriver:GetPageSource",{}]
+1557480920344	Marionette	DEBUG	0 <- [1,45,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... pace=\"0\" hspace=\"0\" height=\"600\">\n\t\t\t\n\t\t</object>\n\t\t</td></tr>\n\t</tbody></table>\n\n\n\n\n</body></html>"}]
+1557480920347	Marionette	DEBUG	0 -> [0,46,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://financevision.yahoo.com"}]
+1557480920351	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010118230700/http://www.heavy.com/
+1557480922131	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010118230700/http://www.heavy.com/
+1557480922131	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010118230700/http://www.heavy.com/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480922210	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001120035100/http://financevision.yahoo.com/
+1557480922229	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001120035100/http://financevision.yahoo.com/
+1557480922230	Marionette	DEBUG	0 <- [1,46,null,{"value":null}]
+1557480978512	geckodriver	INFO	geckodriver 0.21.0
+1557480978515	geckodriver	INFO	Listening on 127.0.0.1:41809
+1557480979523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aJBDZbNfQlex"
+1557480979824	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557480979825	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557480979825	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557480979935	Marionette	TRACE	Received observer notification profile-after-change
+1557480980406	Marionette	TRACE	Received observer notification command-line-startup
+1557480980406	Marionette	TRACE	Received observer notification nsPref:changed
+1557480980406	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557480981261	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557480982187	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557480982188	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557480982300	Marionette	TRACE	All scripts recorded.
+1557480982300	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557480982300	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557480982301	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557480982302	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557480982302	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557480982302	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557480982302	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557480982302	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557480982302	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557480982302	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557480982302	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557480982302	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557480982302	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557480982303	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557480982303	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557480982303	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557480982303	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557480982303	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557480982303	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557480982303	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557480982303	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557480982333	Marionette	INFO	Listening on port 46441
+1557480982333	Marionette	DEBUG	Remote service is active
+1557480982440	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52408
+1557480982442	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557480982442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557480982475	Marionette	TRACE	[4294967297] Frame script loaded
+1557480982476	Marionette	TRACE	[4294967297] Frame script registered
+1557480982478	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d82ffc68-dc94-44a4-be12-9b69e3e341d8","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557480982534	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.volunteermatch.org"}]
+1557480982559	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1557480985561	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1557480986571	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480987777	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480987779	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1557480992791	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557480992800	Marionette	DEBUG	0 <- [1,3,null,[]]
+1557480992802	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557480992806	Marionette	DEBUG	0 <- [1,4,null,[{"element-6066-11e4-a52e-4f735466cecf":"2e48725f-d128-4910-90bd-37cec788cd03"},{"element-6066-11e4-a52e-4f735466cecf":"e75df7a4-2ef2-43a3-9383-e285e3771a6c"}]]
+1557480992808	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1557480992809	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scri ... /blank.gif\" width=\"20\" height=\"350\" border=\"0\">\n  </td>\n</tr>\n\n</tbody></table>\n\n\n\n\n\n\n\n\n</body></html>"}]
+1557480992861	Marionette	DEBUG	0 -> [0,6,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.actforchange.com"}]
+1557480992865	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480993465	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557480993466	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557480995078	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480995358	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557480995360	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1557481000368	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481000370	Marionette	DEBUG	0 <- [1,7,null,[]]
+1557481000373	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481000394	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"e5252576-d26b-4439-9d01-9929d90a095b"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"bba6d306-bd42-422d-81b1-c704f0103110"},{"element-6066-11e4-a52e-4f735466cecf":"c909b89b-031f-4129-b60c-0a266c4184e8"}]]
+1557481000396	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1557481000398	Marionette	DEBUG	0 <- [1,9,null,{"value":"<html lang=\"en\"><head>\n    <title></title>\n        <script src=\"//archive.org/includes/jquery-1.10.2 ... f=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</div></body></html>"}]
+1557481000516	Marionette	DEBUG	0 -> [0,10,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.indymedia.org"}]
+1557481000519	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481001407	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481001408	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481001474	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481003191	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481003192	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1557481008196	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481008197	Marionette	DEBUG	0 <- [1,11,null,[]]
+1557481008199	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481008202	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"7f268831-3d78-4fc9-acc4-31aa47f77fb3"},{"element-6066-11e4-a52e-4f735466c ... ecf":"95589e5d-8777-4480-b037-59a0f2d27ac8"},{"element-6066-11e4-a52e-4f735466cecf":"376c557e-1843-4755-905d-bcd2c92262f3"}]]
+1557481008205	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetPageSource",{}]
+1557481008209	Marionette	DEBUG	0 <- [1,13,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... www.active.org.au/sydney/about/#howorg\">active\nversion 1.31</a>\n</font>\n</center>\n----->\n</font>\n\n\n</body></html>"}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557481787785	geckodriver	INFO	geckodriver 0.21.0
+1557481787821	geckodriver	INFO	Listening on 127.0.0.1:54917
+1557481788837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UdgfNf74FTlU"
+1557481792469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557481792469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557481792469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557481792730	Marionette	TRACE	Received observer notification profile-after-change
+1557481793304	Marionette	TRACE	Received observer notification command-line-startup
+1557481793304	Marionette	TRACE	Received observer notification nsPref:changed
+1557481793304	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1557481794824	Marionette	TRACE	Received observer notification toplevel-window-ready
+1557481797060	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1557481797061	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1557481797273	Marionette	TRACE	All scripts recorded.
+1557481797274	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1557481797274	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1557481797274	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1557481797275	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1557481797275	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1557481797276	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1557481797277	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1557481797277	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1557481797277	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1557481797278	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1557481797278	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1557481797278	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1557481797279	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1557481797280	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1557481797280	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1557481797280	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1557481797280	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1557481797280	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1557481797281	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1557481797281	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1557481797282	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1557481797282	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1557481797282	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1557481797282	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1557481797282	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1557481797282	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1557481797282	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1557481797491	Marionette	INFO	Listening on port 42217
+1557481797492	Marionette	DEBUG	Remote service is active
+1557481797559	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:35906
+1557481797561	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1557481797561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557481797595	Marionette	TRACE	[4294967297] Frame script loaded
+1557481797603	Marionette	TRACE	[4294967297] Frame script registered
+1557481797605	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"7b6a9f86-414f-4400-b341-bb73f9262c12","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1557481797616	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.volunteermatch.org"}]
+1557481797640	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1557481802359	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1557481804105	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557481805242	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557481805243	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1557481810255	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481810260	Marionette	DEBUG	0 <- [1,3,null,[]]
+1557481810263	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481810268	Marionette	DEBUG	0 <- [1,4,null,[{"element-6066-11e4-a52e-4f735466cecf":"ee6b8ac1-52b9-442b-af80-6b67bc6313fd"},{"element-6066-11e4-a52e-4f735466cecf":"35ebc609-fb61-41f9-ac44-0531fc9d163e"}]]
+1557481810269	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1557481810271	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scri ... /blank.gif\" width=\"20\" height=\"350\" border=\"0\">\n  </td>\n</tr>\n\n</tbody></table>\n\n\n\n\n\n\n\n\n</body></html>"}]
+1557481810330	Marionette	DEBUG	0 -> [0,6,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.actforchange.com"}]
+1557481810334	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557481811694	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+1557481811694	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010118211700/http://www.volunteermatch.org/
+JavaScript warning: https://archive.org/includes/jquery-1.10.2.min.js?v1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1557481813363	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481813678	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481813680	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1557481818690	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481818696	Marionette	DEBUG	0 <- [1,7,null,[]]
+1557481818700	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481818723	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"51ba42c5-29ea-4ea5-a037-aa8dae82816f"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"ad980ccb-40a4-438a-a34d-e8819f55b19b"},{"element-6066-11e4-a52e-4f735466cecf":"99c4a088-d287-4eca-a77a-927587e1d674"}]]
+1557481818725	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1557481818727	Marionette	DEBUG	0 <- [1,9,null,{"value":"<html lang=\"en\"><head>\n    <title></title>\n        <script src=\"//archive.org/includes/jquery-1.10.2 ... f=\"//archive.org/about/terms.php\">Terms of Use</a>.\n        </p>\n      </div>\n    </footer>\n  \n</div></body></html>"}]
+1557481818846	Marionette	DEBUG	0 -> [0,10,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.indymedia.org"}]
+1557481818849	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481820846	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481820848	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001109232600/http://www.actforchange.com/
+1557481821130	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481823880	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481823881	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1557481828889	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481828894	Marionette	DEBUG	0 <- [1,11,null,[]]
+1557481828897	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481828903	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"e6128f3b-a98e-4413-a018-6d037f497191"},{"element-6066-11e4-a52e-4f735466c ... ecf":"3a8b6d5a-a627-4d8e-b458-bac183bfc026"},{"element-6066-11e4-a52e-4f735466cecf":"3fcee8dc-6c3a-4b28-b14a-b907321d0ef5"}]]
+1557481828905	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetPageSource",{}]
+1557481828910	Marionette	DEBUG	0 <- [1,13,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... www.active.org.au/sydney/about/#howorg\">active\nversion 1.31</a>\n</font>\n</center>\n----->\n</font>\n\n\n</body></html>"}]
+1557481829036	Marionette	DEBUG	0 -> [0,14,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.peta-online.org"}]
+1557481829039	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481831236	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481831238	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010119180400/http://www.indymedia.org/
+1557481837918	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557481848929	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557481848930	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1557481853939	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481853945	Marionette	DEBUG	0 <- [1,15,null,[]]
+1557481853947	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481853953	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"119552f0-b911-4dce-96b4-6dc686b67d85"},{"element-6066-11e4-a52e-4f735466c ... ecf":"acdb34a6-dc15-4e97-a688-25c81e81869f"},{"element-6066-11e4-a52e-4f735466cecf":"019daf94-d982-4997-87b0-4a2cb2700344"}]]
+1557481853955	Marionette	DEBUG	0 -> [0,17,"WebDriver:GetPageSource",{}]
+1557481853958	Marionette	DEBUG	0 <- [1,17,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... \t\t\t</noscript>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\t\n\n\n</body></html>"}]
+1557481854075	Marionette	DEBUG	0 -> [0,18,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.protest.net"}]
+1557481854077	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557481855633	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557481855633	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20010107124000/http://www.peta-online.org/
+1557481855678	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557481857756	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557481857757	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1557481862767	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481862771	Marionette	DEBUG	0 <- [1,19,null,[]]
+1557481862775	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481862778	Marionette	DEBUG	0 <- [1,20,null,[{"element-6066-11e4-a52e-4f735466cecf":"6d3b8f0c-5ea9-45c8-b1cf-6078ad5a60ce"},{"element-6066-11e4-a52e-4f735466cecf":"30b8a344-4ab2-4027-a5a1-45eda084f798"}]]
+1557481862780	Marionette	DEBUG	0 -> [0,21,"WebDriver:GetPageSource",{}]
+1557481862782	Marionette	DEBUG	0 <- [1,21,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... edback</font></a>&nbsp;&nbsp;\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\n<br><br>\n\n</form></body></html>"}]
+1557481862899	Marionette	DEBUG	0 -> [0,22,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.yhchang.com"}]
+1557481862902	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557481864307	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557481864307	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001121085900/http://www.protest.net/
+1557481864345	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557481864349	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557481864350	Marionette	DEBUG	0 <- [1,22,null,{"value":null}]
+1557481869358	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481869364	Marionette	DEBUG	0 <- [1,23,null,[]]
+1557481869368	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481869377	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"d0e6a7cd-fd66-439e-bbb4-dc30f16086cb"},{"element-6066-11e4-a52e-4f735466cecf":"869f2360-7004-4304-ad7a-136ce38d4b0c"}]]
+1557481869380	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetPageSource",{}]
+1557481869382	Marionette	DEBUG	0 <- [1,25,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... <a href=\"https://web.archive.org/web/20001206042300/mailto:tfa@chollian.net\">E-MAIL</a></font></p>\n\n\n\n</body></html>"}]
+1557481869389	Marionette	DEBUG	0 -> [0,26,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.c5corp.com/1to1"}]
+1557481869394	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557481871258	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557481871259	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20001206042300/http://www.yhchang.com/
+1557481871292	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557481871322	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557481871323	Marionette	DEBUG	0 <- [1,26,null,{"value":null}]
+1557481876333	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElements",{"using":"css selector","value":"h2"}]
+1557481876339	Marionette	DEBUG	0 <- [1,27,null,[]]
+1557481876343	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElements",{"using":"css selector","value":"div"}]
+1557481876346	Marionette	DEBUG	0 <- [1,28,null,[{"element-6066-11e4-a52e-4f735466cecf":"61a06e89-5af9-431a-a568-dd198aecabe0"},{"element-6066-11e4-a52e-4f735466cecf":"bfdeda29-3a6a-46e8-87f9-5a7a4caf4e28"}]]
+1557481876348	Marionette	DEBUG	0 -> [0,29,"WebDriver:GetPageSource",{}]
+1557481876349	Marionette	DEBUG	0 <- [1,29,null,{"value":"<html><head><script src=\"//archive.org/includes/analytics.js?v=cf34f82\" type=\"text/javascript\"></scr ... e.'; return true\">interface : <i>excursion</i></a></td>\n</tr>\n\n    </tbody></table>\n</center>\n\n\n\n\n</body></html>"}]
+1557481876356	Marionette	DEBUG	0 -> [0,30,"WebDriver:Navigate",{"url":"https://web.archive.org/web/20010101000000/http://www.turbulence.org/Works/apartment"}]
+1557481876358	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557481880383	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557481880384	Marionette	TRACE	[4294967297] Received DOM event unload for https://web.archive.org/web/20000815221031/http://c5corp.com/1to1/
+1557481881363	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557481881402	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://web.archive.org/web/20010519115738/http://www.turbulence.org/Works/apartment/
+1557481881403	Marionette	DEBUG	0 <- [1,30,null,{"value":null}]
+[Child 4736, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 4736, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 4736, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+1557481882465	Marionette	DEBUG	Closed connection 0
+[Parent 4521, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 4521, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557481883006	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1557481883006	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1557481883006	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1557481883007	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1557481883008	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1557481883008	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1557481883008	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1557481883008	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1557481883008	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1557481883009	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1557481883009	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1557481883009	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1557481883009	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1557481883009	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1557481883009	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1557481883009	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1557481883009	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1557481883009	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1557481883009	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1557481883009	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1557481883009	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1557481883010	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1557481883010	Marionette	INFO	Stopped listening on port 42217
+1557481883010	Marionette	DEBUG	Remote service is inactive
