@@ -25,46 +25,27 @@ def closest_colour(requested_colour):
         bd = (b_c - requested_colour[2]) ** 2
         min_colours[(rd + gd + bd)] = name
     return min_colours[min(min_colours.keys())]
-
-
 def colour_name(requested_colour):
     try:
         closest_name = webcolors.rgb_to_name(requested_colour)
     except ValueError:
         closest_name = closest_colour(requested_colour)
     return closest_name
-
-
 def string_to_words(s):
 	s=s.replace("\n"," ")
 	s=s.replace(string.punctuation,"")
 	s=re.sub("[^\w]"," ",  s).split()
 	return s
-
 def get_words(d):
 	txt=d.execute_script("return document.body.innerText")
 	if txt==None:
 		txt=""
 	words = string_to_words(str(unidecode.unidecode(txt)))
 	return words
-
-
-#--------------------------------------------#
-#----------- 1.  Word Count -----------------#
-#--------------------------------------------#
-
-
 def get_word_count(d):
 	#print "Param1"
 	words=get_words(d)
 	return float(len(words))
-
-
-#--------------------------------------------#
-#--------- 2. Text Body Ratio ---------------#
-#--------------------------------------------#
-
-
 def get_text_body_ratio(soup):
 
 	#print "Param2"
@@ -86,11 +67,6 @@ def get_text_body_ratio(soup):
 		words=string_to_words(str(unidecode.unidecode(txt)))
 	#print words
 	return float(len(words))
-
-#--------------------------------------------#
-#------ 3. Emphasized Body Percentage -------#
-#--------------------------------------------#
-
 def get_emph_body_text_percentage(d):
 
 	#print "Param3"
@@ -114,13 +90,6 @@ def get_emph_body_text_percentage(d):
 			capWordCount+=1
 	#print boldWordCount, exclWordCount, capWordCount
 	return boldWordCount + exclWordCount + capWordCount
-
-
-#--------------------------------------------#
-#----- 4. Text Positional Changes -----------#   //open to improvement
-#--------------------------------------------#
-
-
 def get_text_position_changes(s):
 
 	#print "Param
@@ -141,13 +110,6 @@ def get_text_position_changes(s):
 		except:
 			pass
 	return textPositionChanges
-
-
-#--------------------------------------------#
-#----------- 5. Text Clusters ---------------#     //open to improvement
-#--------------------------------------------#
-
-
 def get_text_clusters(d):
 
 	#print "Param5"
@@ -157,11 +119,6 @@ def get_text_clusters(d):
 	textClusters=len(tableText)+len(paraText)
 	#print tableText,"\n\n",paraText,"\n\n",textClusters
 	return textClusters
-
-
-#--------------------------------------------#
-#---------- 6. Visible Links ----------------#
-#--------------------------------------------#
 def get_visible_links(d):
 
 	#print "Param6"
@@ -172,12 +129,6 @@ def get_visible_links(d):
 		if i.text != "":
 			visibleLinkCount+=1
 	return visibleLinkCount
-
-
-#--------------------------------------------#
-#------------- 7. Page Size -----------------#
-#--------------------------------------------#
-
 def get_page_size(d):
 
 	#print "Param7"
@@ -196,13 +147,6 @@ def get_page_size(d):
 		except:
 			pass
 	return float(pageSize)/1024.0
-
-
-#--------------------------------------------#
-#--------- 8. Graphics Percentage -----------#
-#--------------------------------------------#
-
-
 def get_graphics_size(d):
 
 	#print "Param8"
@@ -217,10 +161,6 @@ def get_graphics_size(d):
 		except:
 			pass
 	return float(graphicsSize)/1024.0
-#--------------------------------------------#
-#----------- 9. Graphics Count --------------#
-#--------------------------------------------#
-
 def get_graphics_count(d):
 
 	#print "Param9"
@@ -228,13 +168,6 @@ def get_graphics_count(d):
 	images=d.execute_script("return document.images;")
 	graphicsCount=len(styleSteets)+len(images)
 	return  graphicsCount
-
-
-#--------------------------------------------#
-#----------- 10. Color Count ----------------#
-#--------------------------------------------#
-
-
 def get_color_count(d):
 	#print "Param10"
 	d.save_screenshot('screenshot.png')
@@ -272,13 +205,6 @@ def get_color_count(d):
 			c_count+=1
 
 	return c_count
-
-
-#--------------------------------------------#
-#----------- 11. Font Count -----------------#
-#--------------------------------------------#
-
-
 def get_font_count(d):
 	#print("Param11")
 	bold		= d.find_elements_by_tag_name("b")
@@ -293,8 +219,6 @@ def get_font_count(d):
 
 	fontCount =len(bold)+len(italic)+len(big)+len(strong)+faceCount
 	return fontCount
-
-
 def setDriverOptions():
 	options 				= Options()
 	options.binary_location = "/home/abhiavk/git/mysite/mysiteEnv/bin/chromium-browser"
@@ -303,8 +227,6 @@ def setDriverOptions():
 	options.add_argument("--start-maximized");
 	options.add_argument("--window-position=1367,0")
 	return	webdriver.Chrome(chrome_options=options)
-
-
 def getMetrics(url):
 	st 				= time.datetime.now()
 	textFilename	= "Corrupt2018Urls.txt"
