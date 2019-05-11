@@ -23,7 +23,7 @@ def main(filename,year):
 	#with closing(Firefox()) as browser:
 		webbyUrls=pd.read_csv(filename)
 		fields=['id','urls']
-		csvFile=open('yearUrlWb/Wb2001.csv','a+')
+		csvFile=open('yearUrlWb/Wb'+str(year)+'.csv','a+')
 		csvWriter		= csv.writer(csvFile)
 		csvWriter.writerow(fields)
 		num=1
