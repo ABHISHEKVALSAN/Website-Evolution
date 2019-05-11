@@ -1,2 +1,0 @@
-with open("yearUrlWebby/WebbyUrl"+year+".csv","a+") as f:
-			f.write(link)

@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
-
+import csv
 import re
 import requests
 import string
@@ -20,15 +20,21 @@ import time
 import pandas as pd
 
 def main(filename,year):
-	with closing(Firefox()) as browser:
+	#with closing(Firefox()) as browser:
 		webbyUrls=pd.read_csv(filename)
+		fields=['id','urls']
+		csvFile=open('yearUrlWb/Wb2001.csv','a+')
+		csvWriter		= csv.writer(csvFile)
+		csvWriter.writerow(fields)
+		num=1
 		for line in webbyUrls['urls']:
 			url="https://web.archive.org/web/"+year+"0101000000/"+line
+			print(num,url)
+			csvWriter.writerow([num,url])
+			num+=1
+			"""
 			browser.get(url)
-			time.sleep(5)
-			header = browser.find_elements_by_tag_name('h2')
-			# wait for the page to load
-			print(header)
+			time.sleep(10)
 			WebDriverWait(browser, timeout=10).until(lambda x: x.find_elements_by_tag_name('div'))
 			page_source = browser.page_source
 			soup=BeautifulSoup(page_source,'html.parser')
@@ -45,7 +51,7 @@ def main(filename,year):
 					break
 				else:
 					print(page.status_code)
-
+			"""
 if __name__=="__main__":
 	filename=str(sys.argv[-1])
 	year=str(sys.argv[-2])

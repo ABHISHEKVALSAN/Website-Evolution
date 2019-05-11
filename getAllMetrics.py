@@ -16,7 +16,7 @@ import string
 import sys
 import unidecode
 import traceback
-import webcolors
+import time
 
 
 gridCount=1
@@ -31,9 +31,15 @@ def string_to_words(s):
 	s=re.sub("[^\w]"," ",  s).split()
 	return s
 def get_words(d):
-	txt=d.execute_script("return document.body.innerText")
-	if txt==None:
-		txt=""
+	txt=""
+	try:
+		txt+=d.execute_script("return document.body.innerText;")
+	except:
+		pass
+	try:
+		txt+=d.execute_script("return document.innerText;")
+	except:
+		pass
 	words = string_to_words(str(unidecode.unidecode(txt)))
 	return words
 
@@ -321,7 +327,7 @@ def getVisualComplexity(image,num):
 		if e[5]<minDev:
 			col=0
 		cv2.rectangle(imgOut, (e[0],e[1]), (e[0]+e[2],e[1]+e[3]), col, 1)
-	cv2.imwrite('webScreenshot/'+str(year)+'screenshot'+str(num)+'_Quad.png',imgOut)
+	cv2.imwrite('webScreenshot/'+str(year)+'/screenshot'+str(num)+'_Quad.png',imgOut)
 	#cv2.imshow('Quad Image',imgOut)
 	#cv2.waitKey(0)
 	#cv2.destroyAllWindows()
@@ -339,14 +345,14 @@ def getMetrics(urlFile):
 	url=urlFile['urls']
 	year=sys.argv[-2]
 	startTime 		= datetime.datetime.now()
-	textFilename	= "CorruptUrls"+str(year)+".txt"
-	csvFilename		= "tempMpUrlMetrics"+str(year)+".csv"
+	textFilename	= "yearMetrics/CorruptUrls"+str(year)+".txt"
+	csvFilename		= "yearMetrics/tempMpUrlMetrics"+str(year)+".csv"
 	try:
 		driver			= setDriverOptions()
 		driver.get(url)
 		driver.implicitly_wait(10)
-		import time
-		time.sleep(15)
+
+		time.sleep(5)
 		driver.set_window_size(1024, 768)
 		WebDriverWait(driver, timeout=15).until(lambda x: x.find_elements_by_tag_name('body'))
 
@@ -406,7 +412,7 @@ def getMetrics(urlFile):
 	print(datetime.datetime.now()-startTime,"\t",datetime.datetime.now(),"\t",num,url)
 def main(filename,year=""):
 	fields			= ["slno","url","p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13"]
-	csvFilename		= "tempMpUrlMetrics"+str(year)+".csv"
+	csvFilename		= "yearMetrics/tempMpUrlMetrics"+str(year)+".csv"
 	csvFile			= open(csvFilename,"a+")
 	csvWriter		= csv.writer(csvFile)
 	csvWriter.writerow(fields)
@@ -417,7 +423,7 @@ def main(filename,year=""):
 	manager 		= mp.Manager()
 	urls 			= manager.list()
 	results 		= manager.list()
-	pool 			= mp.Pool(mp.cpu_count()-3)
+	pool 			= mp.Pool(1)
 	results 		= pool.map_async(getMetrics, urlFile)
 	while not results.ready():
 		pass

@@ -1,18 +1,9 @@
 from bs4 import BeautifulSoup
-from collections import defaultdict
-from itertools import groupby
-from PIL import Image
-
 from contextlib import closing
-from selenium.webdriver import Firefox
+from selenium.webdriver import Firefox,Chrome
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from webcolors import rgb_to_name
-
-
-
-import webcolors
+from selenium.webdriver.chrome.options import Options
 import re
 import requests
 import string
@@ -32,7 +23,7 @@ def findLink(url,year):
 			print(page.status_code)
 			link="error"
 		with open("yearUrlWebby/WebbyUrl"+year+".csv","a+") as f:
-			f.write(link)
+			f.write(link+"\n")
 		return link
 	except:
 		return url+"#"*10
@@ -40,13 +31,13 @@ def setDriverOptions():
 	options 				= Options()
 	options.binary_location = "webEvPy/bin/chromium-browser"
 	chrome_driver_binary	= "webEvPy/bin/chromedriver"
-	#options.add_argument("--headless")
-	return	webdriver.Chrome(chrome_options=options)
+	options.add_argument("--headless")
+	return	webdriver.Chrome(options=options)
 def main(filename,year):
 	browser=setDriverOptions()
 	cat=pd.read_csv(filename)
 	with open("yearUrlWebby/WebbyUrl"+year+".csv","a+") as f:
-		f.write("urls")
+		f.write("urls\n")
 	for category in cat['category']:
 		url="https://www.webbyawards.com/winners/"+str(year)+str(category).strip()
 		browser.get(url)
@@ -56,10 +47,11 @@ def main(filename,year):
 		page_source = browser.page_source
 		soup=BeautifulSoup(page_source,'html.parser')
 		links=soup.findAll("h2",{"class":"mod-winners-gallery__title"})
-		for i in links:
-			l=i.find("a")
-			nextUrl="https://www.webbyawards.com"+str(l['href'])
-			print(category,findLink(nextUrl,str(year)))
+		with open("yearUrlWebby/WebbyUrl"+year+".csv","a+") as f:
+			for i in links:
+				l=i.find("a")
+				nextUrl="https://www.webbyawards.com"+str(l['href'])
+				print(category,findLink(nextUrl,str(year)))
 
 if __name__=="__main__":
 	filename 	= sys.argv[-1]
