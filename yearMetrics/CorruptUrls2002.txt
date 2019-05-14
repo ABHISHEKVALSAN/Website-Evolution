@@ -1,0 +1,5 @@
+11,https://web.archive.org/web/20020101000000/http://www.amazon.com
+29,https://web.archive.org/web/20020101000000/http://www.lumiere.com
+46,https://web.archive.org/web/20020101000000/http://www.teenwire.com
+105,https://web.archive.org/web/20020101000000/http://www.becominghuman.org
+139,https://web.archive.org/web/20020101000000/http://www.teenwire.com
