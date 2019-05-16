@@ -1,7 +1,0 @@
-id,urls
-13,https://web.archive.org/web/20000101000000/http://www.nationalgeographic.com/congotrek/
-14,https://web.archive.org/web/20000101000000/http://www.ifilm.com
-64,https://web.archive.org/web/20000101000000/http://www.ifilm.com
-71,https://web.archive.org/web/20000101000000/http://www.medianews.org
-81,https://web.archive.org/web/20000101000000/http://www.politics.com
-89,https://web.archive.org/web/20000101000000/http://www.medianews.org

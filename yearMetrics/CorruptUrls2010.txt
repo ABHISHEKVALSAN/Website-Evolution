@@ -1,5 +1,0 @@
-7,https://web.archive.org/web/20100101000000/http://mantis.risdmuseum.org/Brilliant-Line/
-90,https://web.archive.org/web/20100101000000/http://www.sesamestreet.org
-117,https://web.archive.org/web/20100101000000/http://www.2010census.gov
-199,https://web.archive.org/web/20100101000000/http://www.fl-2.com
-261,https://web.archive.org/web/20100101000000/http://current.com/

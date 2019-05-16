@@ -1,5 +1,0 @@
-id,urls
-55,https://web.archive.org/web/20010101000000/http://www.teenwire.com
-71,https://web.archive.org/web/20010101000000/http://www.newvenue.com
-120,https://web.archive.org/web/20010101000000/http://www.nbcolympics.com
-136,https://web.archive.org/web/20010101000000/http://www.teenwire.com

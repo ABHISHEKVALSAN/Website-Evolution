@@ -1,9 +1,0 @@
-13,https://web.archive.org/web/20050101000000/http://www.plwc.org
-17,https://web.archive.org/web/20050101000000/http://www.cars.com
-56,https://web.archive.org/web/20050101000000/http://www.sony.com/locationfreetv
-77,https://web.archive.org/web/20050101000000/http://www.evite.com
-83,https://web.archive.org/web/20050101000000/http://www.orangekids.com
-166,https://web.archive.org/web/20050101000000/http://www.christopherlawrence.com
-187,https://web.archive.org/web/20050101000000/http://www.mswatch.com
-189,https://web.archive.org/web/20050101000000/http://www.NuvaRing.com
-190,https://web.archive.org/web/20050101000000/http://www.weaponsofmisdirection.com

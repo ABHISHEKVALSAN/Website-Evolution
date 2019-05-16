@@ -1,7 +1,0 @@
-15,https://web.archive.org/web/20030101000000/http://www.tirerack.com
-29,https://web.archive.org/web/20030101000000/http://www.japanesestreets.com
-46,https://web.archive.org/web/20030101000000/http://www.teenwire.com
-66,https://web.archive.org/web/20030101000000/http://www.flaminglips.com
-79,https://web.archive.org/web/20030101000000/http://www.msnbc.com
-83,https://web.archive.org/web/20030101000000/http://www.davidstill.org
-90,https://web.archive.org/web/20030101000000/http://www.issuespa.net

@@ -1,5 +1,0 @@
-84,https://web.archive.org/web/20070101000000/http://www.seafoodwatch.org
-155,https://web.archive.org/web/20070101000000/http://www.Allstate.com/crash
-185,https://web.archive.org/web/20070101000000/http://www.geoGreeting.com
-231,https://web.archive.org/web/20070101000000/http://www.pbs.org/religion
-301,https://web.archive.org/web/20070101000000/http://pbskids.org/curiousgeorge/
