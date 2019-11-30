@@ -1,10 +1,9 @@
 from bs4 import BeautifulSoup
+from pyvirtualdisplay import Display
 from scipy.spatial import cKDTree as KDTree
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
-from pyvirtualdisplay import Display
-
 import csv
 import cv2
 import datetime
@@ -14,9 +13,9 @@ import numpy as np
 import re
 import string
 import sys
-import unidecode
-import traceback
 import time
+import traceback
+import unidecode
 
 
 gridCount=1

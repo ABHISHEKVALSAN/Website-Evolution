@@ -1,23 +1,20 @@
 from bs4 import BeautifulSoup
 from collections import defaultdict
-from itertools import groupby
-
 from contextlib import closing
-from selenium.webdriver import Chrome,Firefox
-from selenium.webdriver.support.ui import WebDriverWait
+from itertools import groupby
 from selenium import webdriver
+from selenium.webdriver import Chrome,Firefox
 from selenium.webdriver.chrome.options import Options
-
-
+from selenium.webdriver.support.ui import WebDriverWait
 import csv
+import pandas as pd
 import re
 import requests
 import string
 import sys
+import time
 import unidecode
 import urllib
-import time
-import pandas as pd
 
 def main(filename,year):
 	#with closing(Firefox()) as browser:
